@@ -8,5 +8,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class JwtToken {
-    private String token; //token do JWT
+    private String token; // é o token JWT
 }

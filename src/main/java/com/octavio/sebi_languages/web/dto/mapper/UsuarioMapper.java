@@ -10,7 +10,6 @@ import org.modelmapper.PropertyMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
 public class UsuarioMapper {
 
     // Método que mapeia as propriedades UsuarioCreateDto para Usuario

@@ -8,6 +8,7 @@ public class JwtUserDatails extends User {
 
     private Usuario usuario;
 
+    // GrantedAuthority é uma interface que representa uma autoridade concedida a um usuário
     public JwtUserDatails(Usuario usuario) {
         super(usuario.getUsername(), usuario.getPassword(), AuthorityUtils.createAuthorityList(usuario.getRole().name()));
         this.usuario = usuario;
